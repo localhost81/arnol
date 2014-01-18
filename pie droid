@@ -64,6 +64,15 @@ public class Pie extends Activity implements OnClickListener {
 						Uri webpage = Uri.parse("http://http://en.wikipedia.org/wiki/Steve_Jobs");
 						Intent activity_pieIntent = new Intent(Intent.ACTION_VIEW, webpage);
 						startActivity(activity_pieIntent);}
+						
+						
+						  else if(check.contains("localhost81"))
+						  {
+                                                Uri webpage = Uri.parse("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t5/260862_100001642558045_973913989_q.jpg");
+                                                Intent activity_pieIntent = new Intent(Intent.ACTION_VIEW, webpage);
+                                                startActivity(activity_pieIntent);
+                                                }
+                                
 				
 				
 	
