@@ -43,7 +43,10 @@ public class Pie extends Activity implements OnClickListener {
 				}else if(check.contains("green")){
 					display.setTextColor(Color.GREEN);
 				}else if(check.contains("blue")){
-					display.setTextColor(Color.BLUE);}
+					display.setTextColor(Color.BLUE);
+			         else if(check.contains("white")){
+					display.setTextColor(Color.white);
+					}
 				
 			
 					else if(check.contains("web")){
